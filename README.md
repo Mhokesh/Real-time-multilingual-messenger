@@ -1,14 +1,29 @@
-# Multilingual Chat Application
+# Real-time Multilingual Chat
 
-A real-time chat application that supports multiple languages with automatic translation. Users can type in their preferred language, and messages are automatically translated to the receiver's preferred language.
+This is a real-time multilingual chat application supporting 10 Indian languages. Users can communicate through text or voice input, with automatic translation happening instantly. The split-panel interface shows both original messages and translations, creating a seamless conversation experience across language barriers. Perfect for multilingual teams and international communication.
 
 ## Features
 
-- Real-time chat between two users
-- Support for multiple languages
-- Automatic message translation
-- Modern Material-UI interface
-- Real-time updates using Socket.IO
+This is a real-time multilingual chat application that enables seamless communication between users speaking different languages. The application supports 10 Indian languages including English, Hindi, Tamil, Telugu, Marathi, Gujarati, Bengali, Kannada, Malayalam, and Punjabi. Users can communicate through text or voice input, with automatic translation happening in real-time. The chat interface is split into two panels, allowing users to see both the original message and its translation. The application features a modern, responsive design with intuitive controls for language selection, text input, and voice recording. Built with real-time capabilities using Socket.IO, messages are instantly delivered and translated, creating a smooth and natural conversation experience across language barriers.
+
+## Tech Stack
+
+*   Frontend: React, Material-UI, TypeScript
+*   Backend: Node.js, Express
+*   Real-time: Socket.IO
+*   Translation: Google Cloud Translation API
+*   Speech: Web Speech API
+
+## Interface
+
+Here's a glimpse of the application interface:
+
+![It's Interface](interface.png)
+
+
+## Setup and Installation
+
+*(Add instructions on how to set up and run the project here, e.g., clone the repository, install dependencies, run the backend and frontend servers.)*
 
 ## Prerequisites
 
@@ -65,15 +80,15 @@ The application will be available at `http://localhost:3000`
 ## Supported Languages
 
 - English (en)
-- Spanish (es)
-- French (fr)
-- German (de)
-- Italian (it)
-- Portuguese (pt)
-- Russian (ru)
-- Japanese (ja)
-- Korean (ko)
-- Chinese (zh)
+- Hindi (hi)
+- Tamil (ta)
+- Telugu (te)
+- Marathi (mr)
+- Gujarati (gu)
+- Bengali (bn)
+- Kannada (kn)
+- Malayalam (ml)
+- Punjabi (pa)
 
 ## Technologies Used
 
