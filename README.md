@@ -21,10 +21,6 @@ Here's a glimpse of the application interface:
 ![It's Interface](interface.png)
 
 
-## Setup and Installation
-
-*(Add instructions on how to set up and run the project here, e.g., clone the repository, install dependencies, run the backend and frontend servers.)*
-
 ## Prerequisites
 
 - Node.js (v14 or higher)
